@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vérification d'arrêt de travail</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="modal">
+        <h1 class="title">Vérification d'arrêt de travail</h1>
+
+        <div class="check-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="24" fill="#A7F3D0"/>
+            <path d="M16 24L22 30L32 18" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <p class="message">
+          Arrêt de travail (initial) du 17/06/2025 au<br>
+          17/06/2025 prescrit par le docteur Maryse<br>
+          ZALESKI-ZAMENHOF pour le patient dont les<br>
+          initiales sont R.E, né(e) le 16/10/2006.
+        </p>
+
+        <button class="quit-button" onclick="closeModal()">Quitter</button>
+      </div>
+    </div>
+
+    <script src="/src/main.ts" type="module"></script>
+  </body>
+</html>
